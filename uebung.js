@@ -111,7 +111,7 @@ if (zahl2 < 0) {
 let punkte 
 if (punkte > 90) {
     console.log('Note 1')
-} elif (punkte > 90 + < 80) {
+} else if (punkte > 90 + < 80) {
     console.log('Note 2')
 }
 
