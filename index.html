@@ -9,10 +9,17 @@
             let textfeld = document.getElementById('textfeld');
             textfeld.innerHTML = 'Button wurde betätigt';
         }
+        function DeleteText() {
+            let textfeld = document.getElementById('textfeld');
+            textfeld.innerHTML = '';
+        }
+
+
     </script>
 </head>
 <body>
     <button onclick='ButtonClicked()'>Text anzeigen</button>
+    <button onclick='DeleteText()'>Text löschen</button>
     <h1 id="textfeld"></h1>    
 </body>
 </html>
