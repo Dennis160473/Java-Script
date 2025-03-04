@@ -74,7 +74,14 @@ if (my_Name === 'Lukas') {
 }   else {
     console.log('Wer bist Du?');
 }
-
+// Definiton mit 2 Variablen als Zahlen zur Fallunterscheidung
+let n1 = 16
+let n2 = 4
+if (n1 <= n2) {
+    console.log('Gewinner ist Nummer 1');
+} else {
+    console.log('Gewinner ist Nummer 2');
+}
 
 
 
