@@ -80,18 +80,20 @@ if (my_Name === 'Lukas') {
 // gleich groß sind
 let n1 = 16
 let n2 = 4
-if (n1 <= n2) {
+if (n1 > n2) {
     console.log('Gewinner ist Nummer 1');
-} else {
+} else if (n1 < n2) {
     console.log('Gewinner ist Nummer 2');
+} else {
+    console.log('Beide gleich. Es gibt keinen Gewinner!');
 }
 
 // Fingerübung 2: 
 // Erstelle eine variable divisionResult
 // Schreibe in diese Variable das Ergebnis von a/b, aber nur,
 // wenn b nicht 0 ist. Sonst benutze console.error um einen Fehler auszugeben.
-let zahl1 = a
-let zahl2 = b
+let a = 5;
+let b = 7;
 let divisionResult = a/b
 if (zahl2 < 0) {
     console.log(divisionResult)
