@@ -93,9 +93,7 @@ if (n1 > n2) {
 // Erstelle eine variable divisionResult
 // Schreibe in diese Variable das Ergebnis von a/b, aber nur,
 // wenn b nicht 0 ist. Sonst benutze console.error um einen Fehler auszugeben.
-let a = 5;
-let b = 7;
-let divisionResult = a/b
+let divisionResult;
 if (zahl2 < 0) {
     console.log(divisionResult)
 } else {
