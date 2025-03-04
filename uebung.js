@@ -109,9 +109,11 @@ if (zahl2 < 0) {
 // Mehr als 60 Punkte: Ausgabe "Note 4"
 // Sonst: Ausgabe "Durchgefallen!"
 let punkte 
-if (punkte <= 90) {
+if (punkte > 90) {
     console.log('Note 1')
-} elif ()
+} elif (punkte > 90 + < 80) {
+    console.log('Note 2')
+}
 
 
 
