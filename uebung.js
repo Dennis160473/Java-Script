@@ -64,5 +64,25 @@ console.log(false || 1 == 2)
 console.log(1 == '1');
 console.log(1 === '1');
 
+// Fallunterscheidungen
+let my_Name = 'Tom';
+if (my_Name === 'Lukas') {
+    console.log('Alles Gute!');
+
+}   else if (my_Name === 'Tom') {
+    console.log('Bis Morgen!');
+}   else {
+    console.log('Wer bist Du?');
+}
+
+
+
+
+
+
+
+
+
+
 
 
