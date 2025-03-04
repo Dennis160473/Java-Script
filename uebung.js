@@ -74,6 +74,7 @@ if (my_Name === 'Lukas') {
 }   else {
     console.log('Wer bist Du?');
 }
+
 // Fingerübung: 
 // Definiert 2 variablen (zahlen) a und b
 // Gebt mithilfe von if-else if-else aus, welche Größer ist oder ob sie
@@ -81,9 +82,9 @@ if (my_Name === 'Lukas') {
 let n1 = 16
 let n2 = 4
 if (n1 > n2) {
-    console.log('Gewinner ist Nummer 1');
+    console.log('Gewinner ist' + ${n1} + '!');
 } else if (n1 < n2) {
-    console.log('Gewinner ist Nummer 2');
+    console.log('Gewinner ist' + ${n2} + '!');
 } else {
     console.log('Beide gleich. Es gibt keinen Gewinner!');
 }
