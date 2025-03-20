@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="Hausaufgabe20032025.js"></script>
+    <script>
+      function ButtonClicked() {
+        let textfeld = document.getElementById("textfeld");
+        textfeld.innerHTML = "Button wurde betätigt";
+      }
+      function DeleteText() {
+        let textfeld = document.getElementById("textfeld");
+        textfeld.innerHTML = "";
+      }
+    </script>
+  </head>
+  <body>
+    <h1><center>Testwebsite</center></h1>
+    <button onclick="ButtonClicked()">Testbutton</button>
+    <h1 id="textfeld"></h1>
+    <button onclick="DeleteText()">Text löschen</button>
+  </body>
+</html>
